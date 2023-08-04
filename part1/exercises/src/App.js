@@ -7,9 +7,9 @@ import BookList from './components/BookList.js';
 function App() {
   return (
     <div className="App">
-      <MovieList />
-      <ChoresList />
-      <BookList />
+      <div>
+        <RecipeDescription />
+      </div>
     </div>
   );
 }
