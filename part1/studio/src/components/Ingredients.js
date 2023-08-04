@@ -1,4 +1,6 @@
-function RecipeIngredients() {
+import styles from './Ingredients.module.css';
+
+export default function RecipeIngredients() {
     let ingredients = ["1 package lasagna noodles", "6 tablespoons unsalted butter", "1 shallot", "3 ½ cups whole milk", "4 ounces Gorgonzola cheese"];
     return(
         <div>
