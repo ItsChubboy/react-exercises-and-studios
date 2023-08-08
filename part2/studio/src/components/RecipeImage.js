@@ -6,7 +6,7 @@ function RecipeImage() {
       <img src={data.recipeImage} alt={data.name} className="four-cheese-lasagna" />
     </div>
     ));
-    return <div><recipeImage /></div>
+    return <div>{recipeImage}</div>
 }
  
  export default RecipeImage;
