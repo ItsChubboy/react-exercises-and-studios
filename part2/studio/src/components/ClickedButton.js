@@ -1,5 +1,14 @@
+import "./styling.css";
+
 function ClickedButton() {
-  return;
+  function unclickButton() {
+    alert("You are removing this pin from your saved list!")
+  }
+  return(
+    <button id="clickedButton" onClick={unclickButton}>
+      Saved
+    </button>
+  );
 }
 
 export default ClickedButton;
