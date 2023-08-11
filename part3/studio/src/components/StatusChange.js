@@ -5,12 +5,12 @@ export default function StatusChange () {
    const [recipeStatus, setRecipeStatus] = useState(false);
 
    const handleChange = (event) => {
-      notes = event.target.value;
+      setNotes(event.target.value);
    }
 
    const handleSubmit = (event) => {
       event.preventDefault();
-      
+      setRecipeStatus(true);
    }
 
    return (
